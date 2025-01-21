@@ -10,7 +10,7 @@ const Results = () => {
 
   return (
     <div className="container">
-      <S.Container>
+      <S.Container id="results">
         <h2>Resultados</h2>
         <S.Results>
           <img src={result1} alt="result client" />

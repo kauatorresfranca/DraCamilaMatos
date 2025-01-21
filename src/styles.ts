@@ -2,22 +2,27 @@ import { createGlobalStyle } from "styled-components"
 
 export const breakpoints = {
   desktop: '1024px',
-  tablet: '768px'
+  tablet: '768px',
 }
 
 export const GlobalCss = createGlobalStyle`
   * {
-  margin: 0;
-  padding: 0:
-  box-sizing: border-box;
-  color: #423f32;
-  list-style: none;
-  font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #423f32;
+    list-style: none;
+    font-family: Roboto, sans-serif;
+  }
 
   .container {
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
   }
-}
+
+  html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
 `

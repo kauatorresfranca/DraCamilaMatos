@@ -32,13 +32,17 @@ export const Side = styled.div`
     width: 280px;
 
     @media (max-width:${breakpoints.tablet}) {
-        width: 220px;
+        width: 200px;
       }
   }
 
   h3 {
     color:rgb(53, 51, 44);
     line-height: 32px;
+
+    @media (max-width:${breakpoints.tablet}) {
+        font-size: 18px;
+      }
   }
 
   p {
@@ -46,6 +50,10 @@ export const Side = styled.div`
     font-size: 12px;
     margin-top: 16px;
     margin-bottom: 16px;
+
+    @media (max-width:${breakpoints.tablet}) {
+        font-size: 11px;
+      }
   }
 
   button {
@@ -59,7 +67,7 @@ export const Side = styled.div`
     font-weight: 600;
 
     @media (max-width:${breakpoints.tablet}) {
-        width: 240px;
+        width: 230px;
       }
 
     &:hover {
