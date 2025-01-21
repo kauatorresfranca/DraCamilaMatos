@@ -11,7 +11,7 @@ const Results = () => {
   return (
     <div className="container">
       <S.Container id="results">
-        <h2>Resultados</h2>
+        <h2>RESULTADOS</h2>
         <S.Results>
           <img src={result1} alt="result client" />
           <img src={result2} alt="result client" />

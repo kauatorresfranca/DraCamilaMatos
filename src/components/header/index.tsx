@@ -8,11 +8,11 @@ const Header = () => {
       <h1><a href="#"><img src={logo} alt="logo" /></a></h1>
       <div className="container">
         <S.Links>
-          <S.Link><a href='#'>Inicio</a></S.Link>
-          <S.Link><a href='#about'>Sobre</a></S.Link>
-          <S.Link><a href='#procedures'>Procedimentos</a></S.Link>
-          <S.Link><a href='#results'>Resultados</a></S.Link>
-          <S.Link><a href='#contact'>Contato</a></S.Link>
+          <S.Link><a href='#'>INICIO</a></S.Link>
+          <S.Link><a href='#about'>SOBRE</a></S.Link>
+          <S.Link><a href='#procedures'>PROCEDIMENTOS</a></S.Link>
+          <S.Link><a href='#results'>RESULTADOS</a></S.Link>
+          <S.Link><a href='#contact'>CONTATO</a></S.Link>
         </S.Links>
       </div>
     </S.Container>

@@ -52,7 +52,7 @@ export const Side = styled.div`
     margin-bottom: 16px;
 
     @media (max-width:${breakpoints.tablet}) {
-        font-size: 11px;
+        font-size: 10px;
       }
   }
 
@@ -67,7 +67,7 @@ export const Side = styled.div`
     font-weight: 600;
 
     @media (max-width:${breakpoints.tablet}) {
-        width: 230px;
+        width: 210px;
       }
 
     &:hover {

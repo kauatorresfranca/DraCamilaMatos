@@ -21,6 +21,7 @@ export const Links = styled.ul`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 `
 
 export const Link = styled.li`
@@ -28,7 +29,8 @@ export const Link = styled.li`
 
   @media (max-width:${breakpoints.tablet}) {
       margin-top: 12px;
-      margin-right: 24px;
+      margin-right: 12px;
+      margin-left: 12px;
     }
 
   a {

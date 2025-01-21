@@ -13,7 +13,7 @@ const Banner = () => {
             <img src={secondLogo} alt="logo" />
             <h3>TRATAMENTOS <br /> ODONTOLÓGICOS</h3>
             <p>Procedimentos clínicos e de harmonização <br /> em Maceió (AL) e Bom Conselho (PE).</p>
-            <button>AGENDAMENTO WHATSAPP</button>
+            <a href="https://api.whatsapp.com/send/?phone=5582998379582"><button>AGENDAMENTO WHATSAPP</button></a>
           </S.Side>
         </S.Container>
       </div>

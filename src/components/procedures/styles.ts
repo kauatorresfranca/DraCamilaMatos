@@ -36,6 +36,6 @@ export const Procedure = styled.div`
     width: 320px;
     border-radius: 10px;
     border: 6px solid #fff;
-    margin-bottom: 24px;
+    margin-bottom: 62px;
   }
 `

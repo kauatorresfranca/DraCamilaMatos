@@ -17,11 +17,6 @@ export const ContactsWays = styled.div`
 
 export const ContactWay = styled.div`
 
-  a {
-    margin-right: 4px;
-    margin-left: 4px;
-  }
-
   h3 {
     margin-bottom: 8px;
   }

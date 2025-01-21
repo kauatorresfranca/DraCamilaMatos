@@ -15,7 +15,7 @@ const Procedures = () => {
     <S.Background id="procedures">
       <div className="container">
         <S.Container>
-          <h2>Nossos Procedimentos</h2>
+          <h2>NOSSOS PROCEDIMENTOS</h2>
           <S.Procedures>
             <S.Procedure>
               <h3>PROFILAXIA + RASPAGEM</h3>
