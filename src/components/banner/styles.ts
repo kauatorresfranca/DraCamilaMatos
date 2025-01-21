@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { breakpoints } from '../../styles'
 
 export const Background = styled.div`
   background: linear-gradient(to bottom, #d8b994,  #a98460);
@@ -12,6 +13,11 @@ export const Container = styled.div`
   > img {
     width: 260px;
     height: 400px;
+
+    @media (max-width:${breakpoints.tablet}) {
+        width: 200px;
+        height: 340px;
+      }
   }
 `
 
@@ -24,6 +30,10 @@ export const Side = styled.div`
 
   img {
     width: 280px;
+
+    @media (max-width:${breakpoints.tablet}) {
+        width: 220px;
+      }
   }
 
   h3 {
@@ -47,5 +57,14 @@ export const Side = styled.div`
     cursor: pointer;
     height: 32px;
     font-weight: 600;
+
+    @media (max-width:${breakpoints.tablet}) {
+        width: 240px;
+      }
+
+    &:hover {
+      color: #fff;
+      background-color: #a98460;
+    }
   }
 `

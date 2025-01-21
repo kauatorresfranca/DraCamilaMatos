@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { breakpoints } from "../../styles"
 
 export const Container = styled.header`
   background: linear-gradient(to right, #d8b994, #c29f7b);
@@ -8,6 +9,11 @@ export const Container = styled.header`
   img {
     margin-left: 120px;
     width: 300px;
+
+    @media (max-width:${breakpoints.tablet}) {
+            width: 252px;
+            margin-left: 0px;
+          }
   }
 `
 
@@ -18,6 +24,11 @@ export const Links = styled.ul`
 
 export const Link = styled.li`
   margin-right: 64px;
+
+  @media (max-width:${breakpoints.tablet}) {
+      margin-top: 12px;
+      margin-right: 24px;
+    }
 
   a {
     text-decoration: none;

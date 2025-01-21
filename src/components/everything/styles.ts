@@ -26,6 +26,7 @@ export const Buttons = styled.div`
   }
 
   button {
+    background-color: #fff;
     width: 360px;
     height: 40px;
     border: 2px solid #a98460;
