@@ -1,5 +1,12 @@
 import styled from 'styled-components'
 
+
+export const Background = styled.div`
+  padding-top: 32px;
+  background: linear-gradient(to right, #d8b994, #c29f7b);
+`
+
+
 export const Container = styled.div`
   text-align: center;
   padding-bottom: 64px;
@@ -24,6 +31,6 @@ export const ContactWay = styled.div`
   p {
     font-weight: 600;
     font-size: 14px;
-    color: #d8b994;
+    color: #fff;
   }
 `

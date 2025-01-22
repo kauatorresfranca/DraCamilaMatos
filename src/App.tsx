@@ -2,6 +2,7 @@ import AboutUs from './components/about_us'
 import Banner from './components/banner'
 import Contact from './components/contact'
 import EveryThing from './components/everything'
+import Footer from './components/footer'
 import Header from './components/header/index'
 import Procedures from './components/procedures'
 import Results from './components/results'
@@ -20,6 +21,7 @@ function App() {
       <Procedures />
       <Results />
       <Contact />
+      <Footer />
     </>
   )
 }
