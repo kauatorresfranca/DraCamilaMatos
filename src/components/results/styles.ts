@@ -23,6 +23,12 @@ export const Results = styled.div`
   }
 
   img {
+
+  transition: transform 0.5s ease;
+
+  &:hover{
+    transform: scale(1.1);
+  }
     width: 200px;
     border-radius: 12px;
     border: 3px solid #a98460;

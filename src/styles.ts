@@ -5,6 +5,13 @@ export const breakpoints = {
   tablet: '768px',
 }
 
+export const colors = {
+  primaryColor: "#d8b994",
+  secundaryColor: '#a98460',
+  titleColor: 'rgb(53, 51, 44)',
+  textColor: '#fff'
+}
+
 export const GlobalCss = createGlobalStyle`
   * {
     margin: 0;

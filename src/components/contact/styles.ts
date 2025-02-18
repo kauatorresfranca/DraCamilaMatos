@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { colors } from '../../styles'
 
 
 export const Background = styled.div`
@@ -31,6 +32,6 @@ export const ContactWay = styled.div`
   p {
     font-weight: 600;
     font-size: 14px;
-    color: #fff;
+    color: ${colors.textColor};
   }
 `

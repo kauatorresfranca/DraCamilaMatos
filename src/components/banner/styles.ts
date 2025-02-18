@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { breakpoints } from '../../styles'
+import { breakpoints, colors } from '../../styles'
 
 export const Background = styled.div`
   background: linear-gradient(to bottom, #d8b994,  #a98460);
@@ -58,7 +58,7 @@ export const Side = styled.div`
 
   button {
     color: #a98460;
-    background-color: #fff;
+    background-color: ${colors.textColor};
     width: 270px;
     border-radius: 25px;
     border: none;
